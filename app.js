@@ -59,9 +59,8 @@ app.delete('/book-shelves/:bookShelfId', (req, res, next) => {
 });
 
 const shelvesRouter = require('./shelvesRouter');
-// Write your code below:
-app.use('/book-shelves/:bookShelfId/shelves', shelvesRouter)
 
+app.use('/book-shelves/:bookShelfId/shelves', shelvesRouter)
 
 app.listen(PORT, () => {
   console.log(`Server is listening on port ${PORT}`);

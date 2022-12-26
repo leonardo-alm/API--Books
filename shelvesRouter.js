@@ -1,8 +1,5 @@
 const router = require('express').Router({ mergeParams: true });
 
-// const express = require('express')
-// const router = express.Router({mergeParams: true});
-
 const books = [
   { id: 1, title: '1984', author: 'George Orwell', bookShelfId: 1 },
   { id: 2, title: 'Clean Code', author: 'Robert Cecil Martin', bookShelfId: 1 },
